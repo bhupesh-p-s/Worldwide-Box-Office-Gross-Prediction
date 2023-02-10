@@ -24,7 +24,8 @@ Three machine learning models were used in this project:
 * Random Forest Regressor
 * Gradient Boosting Regressor
 * Support Vector Regression (SVR)
-The model with the highest accuracy was found to be Random Forest Regressor and was used for the final prediction.
+
+The model with the highest accuracy was found to be Gradient Boosting Regressor and was used for the final prediction.
 
 ## Conclusion
 This project demonstrates the use of machine learning techniques to predict the worldwide box office gross of a movie based on various features. The Random Forest Regressor model was found to be the most efficient and accurate for this prediction task.
