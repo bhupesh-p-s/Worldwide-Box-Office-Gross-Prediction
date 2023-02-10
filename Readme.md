@@ -1,11 +1,32 @@
-# MOVIES BOX OFFICE ANALYSIS
+# WORLDWIDE BOX OFFICE GROSS PREDICTION
 
-Tools used: Pandas, Pyplot, Seaborn
+## Introduction
+This project uses machine learning techniques to predict the worldwide box office gross of a movie, based on various features such as genre, director, and stars.
 
-The main aim is to analyse the box office earnings of movies before, during and after covid.
+## Prerequisites
+The following packages are required to run this project:
+* pandas
+* numpy
+* matplotlib
+* seaborn
+* sklearn
+* requests
+* beautifulsoup4
 
-* A dataset regarding movies box office earning from the year 2017 to 2021 is taken from boxoffice mojo.
-* Pandas is used to import the data set and perform operations on it and create a data frame.
-* The statistics for the dataset is calculated.
-* The Pyplot is used to calculate the Correlation
-* The seaborn is used to visualize the analysis
+## Data Collection
+The data for this project was collected from the IMDb website using web scraping techniques with the requests and Beautiful Soup libraries.
+
+## Data Cleaning and Engineering
+Before modeling, the collected data underwent a process of cleaning and engineering to prepare it for analysis. This involved dealing with missing values, converting data into the correct format, and creating new features through one-hot encoding.
+
+## Machine Learning
+Three machine learning models were used in this project: 
+* Random Forest Regressor
+* Gradient Boosting Regressor
+* Support Vector Regression (SVR)
+The model with the highest accuracy was found to be Random Forest Regressor and was used for the final prediction.
+
+## Conclusion
+This project demonstrates the use of machine learning techniques to predict the worldwide box office gross of a movie based on various features. The Random Forest Regressor model was found to be the most efficient and accurate for this prediction task.
+
+
